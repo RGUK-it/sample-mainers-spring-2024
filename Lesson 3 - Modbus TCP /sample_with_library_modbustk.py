@@ -17,5 +17,6 @@ def read_holding_regs(ip, port, address, start_register, num_registers):
     except BaseException as err:
         return err
 
+
 if __name__ == "__main__":
     print(read_holding_regs(SERVER_IP, SERVER_PORT, UNIT_ID, START_REGS, NUM_REGISTERS))
